@@ -8,7 +8,8 @@ p, h2{
     --user-img-size: 100px;
 }
 
-.star-no-premium{
+
+.star-no-premium, .star-premium{
     background-color: white;
     text-align: center;
     color: rgba(74, 74, 74, 0.2);
@@ -20,6 +21,10 @@ p, h2{
     padding-bottom: calc(var(--star-size) / 5);
     position: absolute;
     bottom: calc(var(--star-size) / 2 * (-1)); 
+}
+
+.star-premium{
+    color: gold;
 }
 
 .user-image-with-star{
